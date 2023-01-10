@@ -1,16 +1,14 @@
 # 1- Using the following Hash
 
 states = {
-  "Oregon" => "OR",
-  "Alabama" => "AL",
-  "New Jersey" => "NJ",
-  "Colorado" => "CO"
+  oregon: "OR",
+  alabama: "AL",
+  new_jersey: "NJ",
+  colorado: "CO"
 }
-
 # Use the each method to iterate through it and print out a sentence stating each state name and abbreviation
-#
-#
-#
+p "Oregon can be abreviated to %{oregon}. Alabama can be abreviated to %{alabama}. New Jersey can be abreviated to %{new_jersey}. Colorado can be abreviated to %{colorado}. " % states
+
 
 
 # ======================================
@@ -24,7 +22,7 @@ birthdays = {
 }
 
 # Use the each method to iterate through it and print out a sentence stating each friends name and birthday
-#
+p ""
 #
 #
 
